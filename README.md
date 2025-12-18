@@ -6,21 +6,21 @@ This project predicts the likelihood of rainfall using a **Random Forest Classif
 
 ## Table of Contents
 
-* [Project Overview](#project-overview)
-* [Getting Started](#getting-started)
-* [Dependencies](#dependencies)
-* [Data Collection and Preprocessing](#data-collection-and-preprocessing)
+1. Project Overview
+2. Getting Started
+3. Dependencies
+4. Data Collection and Preprocessing
 
-  * [Handling Missing Values](#handling-missing-values)
-  * [Feature Embedding](#feature-embedding)
-* [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
-* [Modeling](#modeling)
+   * Handling Missing Values
+   * Feature Embedding
+5. Exploratory Data Analysis (EDA)
+6. Modeling
 
-  * [Train-Test Split](#train-test-split)
-  * [Random Forest Classifier](#random-forest-classifier)
-  * [Hyperparameter Tuning with GridSearchCV](#hyperparameter-tuning-with-gridsearchcv)
-* [Results and Evaluation](#results-and-evaluation)
-* [Conclusion and Next Steps](#conclusion-and-next-steps)
+   * Train-Test Split
+   * Random Forest Classifier
+   * Hyperparameter Tuning with GridSearchCV
+7. Results and Evaluation
+8. Conclusion and Next Steps
 
 ---
 
@@ -67,13 +67,6 @@ The dataset used in this project consists of daily weather records, including fe
 ### Data Preprocessing
 
 Before building the model, we need to clean and prepare the data. This involves the following steps:
-
-1. **Handling Missing Values**:
-
-   * If any features contain missing or null values, we handle them through imputation or removal, depending on the context.
-2. **Feature Engineering**:
-
-   * We may need to transform certain features (e.g., converting categorical variables to numerical ones) or create new features based on existing ones.
 
 #### Handling Missing Values
 
